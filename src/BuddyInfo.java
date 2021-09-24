@@ -25,6 +25,10 @@ public class BuddyInfo {
         this.phoneNumber = phoneNumber;
     }
 
+    public void NewMethod() {
+        System.out.println("Working fine!");
+    }
+
     public static void main(String[] args) {
         BuddyInfo BuddyInfo1 = new BuddyInfo("Homer", "", "");
         System.out.println("Hello" + BuddyInfo1.getName());
