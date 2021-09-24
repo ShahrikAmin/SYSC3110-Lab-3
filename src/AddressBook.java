@@ -11,7 +11,9 @@ public class AddressBook {
     public void removeBuddy (BuddyInfo obj) {
         collection.remove(obj);
     }
-
+    
+    // Editing code outside of intellij
+    
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
         AddressBook addressBook = new AddressBook();
